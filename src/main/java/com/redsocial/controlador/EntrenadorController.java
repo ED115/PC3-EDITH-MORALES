@@ -25,7 +25,7 @@ public class EntrenadorController {
 
 	@RequestMapping("/verEntrenador")
 	public String ver() {
-		return "registraEntrenador";
+		return "crudEntrenador";
 	}
 	
 	@RequestMapping("/cargaEquipo")
